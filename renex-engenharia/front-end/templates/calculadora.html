@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/calculadora.css">
     <title>Renex Engenharia</title>
 </head>
 <body>
@@ -12,21 +14,34 @@
         <form id="form">
             <h1>Simulador de Orçamento</h1>
             <div class="input-box">
+                <i class="fa-solid fa-user"></i>
                 <input type="text" id="name" placeholder="Nome Completo">
             </div>
             <div class="input-box"> 
+                <i class="fa-solid fa-phone"></i>
                 <input type="number" id="cellphone" placeholder="Celular">
             </div>
             <div class="input-box">
+                <i class="fa-solid fa-house"></i>
                 <input type="text" id="segment" placeholder="Segmento">
             </div>
 
-            <div class="Consumption">
+            <div class="input-box">
+                <i class="fa-solid fa-money-bill"></i>
                 <select id="type">
-                    <option value="" disabled selected>Selecione</option>
-                    <option value="first">R$150</option>
+                    <option value="" disabled selected>Consumo Mensal</option>
+                    <option value="first">R$150 - R$249</option>
+                    <option value="second">R$250 - R$399</option>
+                    <option value="third">R$400 - R$599</option>
+                    <option value="fourth">R$600 - R$999</option>
+                    <option value="fifth">R$1000 - R$4.999</option>
+                    <option value="fifth">Acima - R$5.000</option>
                 </select>
             </div>
+            <div class="calculate">
+                <button type="submit" id="calculate"> Calcular </button>
+            </div>
+            
         </form>
     </section>
 </body>

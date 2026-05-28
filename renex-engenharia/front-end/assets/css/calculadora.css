@@ -85,3 +85,17 @@ button {
     color: white;
 }
 
+/* Label (nome do campo) fica cinza */
+.card-resultado .label {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+/* Valor (o resultado) fica com cor de destaque */
+.card-resultado .valor {
+  color: #00c853; /* Verde */
+  font-weight: bold;
+  font-size: 1.1rem;
+  display: block;
+  margin-top: 4px;
+}

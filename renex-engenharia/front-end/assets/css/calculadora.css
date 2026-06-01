@@ -93,7 +93,7 @@ button {
 
 /* Valor (o resultado) fica com cor de destaque */
 .card-resultado .valor {
-  color: #00c853; /* Verde */
+  color: #00c853;
   font-weight: bold;
   font-size: 1.1rem;
   display: block;
